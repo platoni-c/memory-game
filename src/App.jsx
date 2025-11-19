@@ -82,7 +82,7 @@ const App = () => {
                     );
                     setFlippedCards([]);
                     setIsLocked(false);
-                }, 400);
+                }, 100);
             }
             //Add one after every move to the display
             setMoves(prev => prev + 1)
