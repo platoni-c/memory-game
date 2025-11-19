@@ -52,7 +52,6 @@ const App = () => {
 
         // If two cards are flipped, check match
         if (newFlips.length === 2) {
-            setIsLocked(true);
             const [id1, id2] = newFlips;
             const first = updatedCards[id1];
             const second = updatedCards[id2];
